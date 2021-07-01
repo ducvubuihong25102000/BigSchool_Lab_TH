@@ -2,7 +2,7 @@
 
 namespace BigSchool.Models
 {
-    public class category
+    public class Category
     {
         public byte Id { get; set; }
         [Required]
