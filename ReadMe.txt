@@ -23,5 +23,11 @@ Create.cshtml
 {
 	-No overload for method-
 	@Html.TextBoxFor(m => m.Category, new SelectList(Model.Categories, "Id", "Name"),"", new { @class = "form-control" })
-	-Thêm overload cho phương thức "TextBoxFor"-
+	-Thêm overload cho phương thức "TextBoxFor" ?-
+	-- TextBoxFor đổi thành DropDownListFor (viết sai hàm)-- 
 }
+
+Github
+fatal: The remote end hung up unexpectedly
+--cách fix--
+git config http.postBuffer 524288000
