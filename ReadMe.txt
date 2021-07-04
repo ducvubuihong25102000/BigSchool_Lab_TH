@@ -28,6 +28,20 @@ Create.cshtml
 	-- TextBoxFor đổi thành DropDownListFor (viết sai hàm)-- 
 }
 
+[Done]
+public ActionResult Index()
+{
+  var upcomingCourses = _dbContext.Courses
+ 	.Include(c => c.Lecturer) 	***nội dung "c=>c.Lecturer" bị lỗi cant convert lambda expression to string**
+ 	.Include(c => c.Category)
+	.Where(c => c.DateTime > DateTime.Now);
+	return View(upcomingCourses);
+}
+--Fix bằng cách thêm thư viện "using System.Data.Entity;"
+--Có cùng hàm Include trong 1 thư viện khác
+--> Tìm hiểu thư viện 	
+
+[Done]
 Github
 fatal: The remote end hung up unexpectedly
 --cách fix--
