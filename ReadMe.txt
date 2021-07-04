@@ -46,3 +46,6 @@ Github
 fatal: The remote end hung up unexpectedly
 --cách fix--
 git config http.postBuffer 524288000
+
+[Not Done]
+Không add dc css Content/Site.css vào file Views/Home/index.cshtml ( trang 52)
