@@ -110,3 +110,11 @@ D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.GenerateResource.cache
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.CreateTableCourse.resources
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.AddNametoApplicationUser.resources
+D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.addTbAttendence.resources
+D:\code\WebMVC\BigSchool\bin\System.Net.Http.Formatting.dll
+D:\code\WebMVC\BigSchool\bin\System.Web.Http.dll
+D:\code\WebMVC\BigSchool\bin\System.Web.Http.WebHost.dll
+D:\code\WebMVC\BigSchool\bin\System.Net.Http.Formatting.xml
+D:\code\WebMVC\BigSchool\bin\System.Web.Http.xml
+D:\code\WebMVC\BigSchool\bin\System.Web.Http.WebHost.xml
+D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache

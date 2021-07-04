@@ -49,3 +49,8 @@ git config http.postBuffer 524288000
 
 [Not Done]
 Không add dc css Content/Site.css vào file Views/Home/index.cshtml ( trang 52)
+--> Đọc tài liệu cách add css vào file .cshtml - trang razor
+
+[Done]
+-GlobalConfiguration.Configure(WebApiConfig.Register); **không nhận thư viện "System.Web.Optimization"
+--> PM> Install-Package Microsoft.AspNet.WebApi.WebHost (cửa sổ terminal)
