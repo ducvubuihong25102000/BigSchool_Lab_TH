@@ -101,7 +101,6 @@ D:\code\WebMVC\BigSchool\bin\Microsoft.Owin.Security.Twitter.xml
 D:\code\WebMVC\BigSchool\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\code\WebMVC\BigSchool\bin\Microsoft.Owin.Security.OAuth.xml
 D:\code\WebMVC\BigSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.CoreCompileInputs.cache
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.CopyComplete
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.dll
@@ -110,3 +109,5 @@ D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.InitialModel.resources
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.GenerateResource.cache
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.CreateTableCourse.resources
 D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
+D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache
+D:\code\WebMVC\BigSchool\obj\Debug\BigSchool.Migrations.AddNametoApplicationUser.resources
