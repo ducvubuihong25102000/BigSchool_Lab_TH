@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Attending";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Attending</h2>
+
+<ul class="course">
+    @foreach (var course in Model.UpcomingCourses)
+    {
+        <li>
+            <div class="date">
+                <div class="month">
+                    @course.DateTime.ToString("MM")
+                </div>
+                <div class="day">
+                    @course.DateTime.ToString("dd")
+                </div>
+            </div>
+            <div class="details">
+                <span class="lecturer">
+                    <b>@course.Lecturer.Name</b>
+
+                    @if (course.IsCanceled)
+                    {
+                        <span class="label label-warning">Canceled</span>
+                    }
+                    @if (Model.ShowAction && !course.IsCanceled)
+                    {
+                        <button class="btn btn-link btn-sm js-toggle-follow" data-user-id="@course.LecturerId">Follow</button>
+                    }
+                    <br />
+                </span>
+                <span class="category">
+                    <b>@course.Category.Name</b>
+                </span>
+            </div>
+        </li>
+    }
+</ul>
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function(){
+
+            $(".js-toggle-follow").click(function(e){
+                var button = $(e.target);
+                $.post("/api/followings",{ followeeId: button.attr("data-user-id")})
+                    .done(function(){
+                        button.text("Following");
+                    })
+                    .fail(function(){
+                        alert("Bạn đã theo dõi !");
+                    });
+            });
+        });
+
+
+    </script>
+}
