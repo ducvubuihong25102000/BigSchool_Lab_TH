@@ -54,9 +54,9 @@ namespace BigSchool
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "384218509790877",
+               appSecret: "1ce81cba806f3d3ba5a8a3556718ab32");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

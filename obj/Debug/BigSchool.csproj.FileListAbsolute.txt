@@ -239,3 +239,4 @@ E:\hongduc\Web MVC ASP.Net\WebThucHanh\obj\Debug\BigSchool.csproj.CopyComplete
 E:\hongduc\Web MVC ASP.Net\WebThucHanh\obj\Debug\BigSchool.dll
 E:\hongduc\Web MVC ASP.Net\WebThucHanh\obj\Debug\BigSchool.pdb
 E:\hongduc\Web MVC ASP.Net\WebThucHanh\obj\Debug\BigSchool.Migrations.AddFollowingTAble.resources
+E:\hongduc\Web MVC ASP.Net\WebThucHanh\obj\Debug\BigSchool.Migrations.final.resources
